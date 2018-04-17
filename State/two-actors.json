@@ -1,6 +1,6 @@
-[
-  {
-    "transaction": {
+{
+  "transaction": [
+    {
       "nonce": 0,
       "ticks": 0,
       "funcName": "",
@@ -9,12 +9,7 @@
       ],
       "secretKey": "0x78d783b89b0de774b8fcf465d9644fb1f739875876ec3f9cad8f56947e27d141"
     },
-    "post": {
-      "stateRoot": "0xba7c1cf0e84f1233997d1571021b4f3d587a72a7"
-    }
-  },
-  {
-    "transaction": {
+    {
       "nonce": 1,
       "ticks": 100000,
       "funcName": "call",
@@ -24,9 +19,9 @@
         42
       ],
       "secretKey": "0x78d783b89b0de774b8fcf465d9644fb1f739875876ec3f9cad8f56947e27d141"
-    },
-    "post": {
-      "stateRoot": "0x23740d0c758b9a8f2b331841730e1c4dba54c21a"
     }
+  ],
+  "post": {
+    "stateRoot": "0x23740d0c758b9a8f2b331841730e1c4dba54c21a"
   }
-]
+}
